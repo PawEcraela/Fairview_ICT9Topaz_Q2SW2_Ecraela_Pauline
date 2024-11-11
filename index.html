@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<title>Robotics Club</title>
+</head>
+	<style>
+		body{ background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a1b8ee107345049.5fa4aeae05dc0.gif);
+			background-repeat: no-repeat;
+			background-size: cover;
+
+		}
+		h1{
+			color: white;
+			font: monospace;
+			
+		}
+		label{
+			color: white;d
+			font: monospace;
+		}
+		.form-group{
+			background-color: #0b1a33; opacity: 70%;
+			padding: 20px;
+			width: 950px;
+			margin: auto;
+			border-radius: 25px;
+		}
+		input{
+			border-radius: 20px;
+		}
+	</style>
+<body>
+<center>
+	<h1>Highschool Robotics Club Application</h1>
+</center>
+	<form class="form-group">
+		<div class="row">
+			<div class="col-md-6">
+				<label for="name">Name:</label>
+				<br>
+				<input type="text" class="form-control">
+			</div>
+			<div class="col-md-6">
+				<label for="name">Email Address</label>
+				<br>
+				<input type="text" class="form-control">
+			</div>
+			<div class="col-md-6">
+				<label for="name">Age</label>
+				<br>
+				<input type="number" class="form-control">
+			</div>
+			<div class="col-md-6">
+				<label for="name">Phone Number</label>
+				<br>
+				<input type="number" class="form-control">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<label for="gender">Section</label>
+				<br>
+				<input type="radio" class="" name="section">
+					<label for="9-Emerald">9-Emerald</label>
+				<input type="radio" class="" name="section">
+					<label for="9-Topaz">9-Topaz</label>
+				<input type="radio" class="" name="section">
+					<label for="9-Ruby"> 9-Ruby</label>
+				<input type="radio" class="" name="section">
+					<label for="9-Sapphire">9-Sapphire</label>
+			</div>
+		<div class="row">
+			<div class="col-md-6">
+				<label for="experience">Experience</label>
+				<br>
+				<input type="radio" class="" name="experience">
+					<label for="Beginner">Beginner</label>
+				<input type="radio" class="" name="experience">
+					<label for="Intermediate">Intermediate</label>
+				<input type="radio" class="" name="experience">
+					<label for="Advanced"> Advanced</label>
+			</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<select class="form-control">
+					<option value="Select"> Preferred Robotics Project</option>
+					<option value="Line">Line following robot</option>
+					<option value="Aquatic">Aquatic robot</option>
+					<option value="Disaster">Disaster response robot</option>
+
+				</select>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<label for="feedback">Why do you want to join?</label><br>
+                    <textarea rows="4" cols="30" placeholder="Type your answer here..."></textarea>
+               </div>
+             </div>
+           </div>
+        </div>
+      </div>
+  
+              <input type="submit" id="submit" name="submit" value="Thanks for answering!">
+			
+		</div>
+	</form>
+</body>
+</html>
